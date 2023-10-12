@@ -6,9 +6,8 @@ A small Python script for downloading the liked music in your playlist and savin
 
 
 # Alpha Version
-The script is not fully compeleted, i limited it to download only the first 5 songs in the liked music playlist
+The script is not fully compeleted, i limited it to download only the first 5 songs in the liked music playlist </br>
 It requires permission from my side to be able to download your liked music (SPOTIFY WEBAPI)
-
 
 
 ## Requirments
