@@ -13,7 +13,7 @@ try:
   client_id = os.environ['SPOTIPY_CLIENT_ID']
   redirect_uri = os.environ['SPOTIPY_REDIRECT_URI']
 except:
-  client_id = os.environ['SPOTIPY_CLIENT_ID'] = 'b9c90f73293d4d0d80d4f05c539e44b0'
+  client_id = os.environ['SPOTIPY_CLIENT_ID'] = 'SPOTIFY_CLIENT_ID'
   redirect_uri = os.environ['SPOTIPY_REDIRECT_URI'] = 'https://www.google.com/'
 
 spotify_oauth = SpotifyPKCE(client_id=client_id, redirect_uri=redirect_uri, scope="user-library-read",open_browser=True)
